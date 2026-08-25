@@ -1,0 +1,14 @@
+Ai Prompts:
+
+give me a structure of folders for a front end project with only html and css I want a nice and clean folder system
+
+i want to add a section with 4 squares for an image/illustration and some text under each one, can you suggest a structure to be used?
+
+fill out the contact.html with a form that allows a user to ask a question
+
+
+Task: Create a section with 4 cards that display images and some information
+Solution: A section with 4 articles that each contain an image and p as description
+
+Task: Create a section for the companies values
+Solution: Created a similar structure to the landing page one with separate articles for each value
