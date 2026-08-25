@@ -6,9 +6,28 @@ i want to add a section with 4 squares for an image/illustration and some text u
 
 fill out the contact.html with a form that allows a user to ask a question
 
+center footer text
 
+Tasks and problems
 Task: Create a section with 4 cards that display images and some information
 Solution: A section with 4 articles that each contain an image and p as description
 
 Task: Create a section for the companies values
 Solution: Created a similar structure to the landing page one with separate articles for each value
+
+Task: Create basic stylings for the landing page
+Solution: Prompted the ai to build some basic styling to the landing page
+
+Problem: The text is too long on the landing page
+Solution: Defined a max width to the image and text
+
+Task: Create the landing page "Some random information" section
+Solution: Created a div with several articles and styled them
+
+Task: Get the author name to the right side of the quote
+Solution: Adding text-align property to the text inside the landing-quote class
+
+Task: Create a section with rounded corners (button included)
+Solution: Added some css classes to create the rounded borders effect
+
+Problem: Footer content is not centering to div

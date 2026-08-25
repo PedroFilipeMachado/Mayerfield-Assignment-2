@@ -1,0 +1,140 @@
+/* Landing page styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1F2937;
+}
+
+section {
+    margin-bottom: 4%;
+}
+
+header,
+.hero,
+footer {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.hero-img {
+    background-color: #263344;
+    width: 80%;
+    height: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #E5E7EB;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav a,
+.hero p {
+    color: #E5E7EB;
+    font-size: 18px;
+    max-width: 60%;
+}
+
+.landing-info {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+nav a {
+    margin-left: 24px;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 80px 10%;
+}
+
+.hero h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+button,
+.cta {
+    background-color: #3882F6;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-weight: 700;
+}
+
+.information h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.landing-quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 60px 10%;
+}
+
+.landing-action {
+    border: 0px solid;
+    border-radius: 12px;
+    background-color: #3882F6;
+    display: flex;
+    width: 60%;
+    margin: 4% auto;
+    align-items: center;
+}
+
+.landing-action div {
+    display: block;
+    margin: 2%;
+    color: #fff;
+}
+
+.landing-action button {
+    border: 2px solid white;
+    border-radius: 5%;
+    max-height: 50px;
+    margin: 2%;
+}
+
+.landing-quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.landing-quote h4 {
+    text-align: right;
+    margin: 0;
+}
+
+footer {
+    color: #E5E7EB;
+    padding: 24px 10%;
+    text-align: center;
+    justify-content: center;
+}
