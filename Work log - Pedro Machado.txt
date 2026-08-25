@@ -31,3 +31,6 @@ Task: Create a section with rounded corners (button included)
 Solution: Added some css classes to create the rounded borders effect
 
 Problem: Footer content is not centering to div
+Solution: Added the justify-content: center to the css class
+
+Problem: Navbar options are not on the right side
