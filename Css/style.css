@@ -1,3 +1,10 @@
+/* Add font */
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto/static/Roboto-ExtraBold.ttf') format('truetype'),
+        url('/fonts/Roboto/static/Roboto-LightItalic.ttf') format('truetype');
+}
+
 /* Landing page styles */
 body {
     margin: 0;
