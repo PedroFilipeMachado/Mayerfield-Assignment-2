@@ -1,58 +1,55 @@
-/* Add font */
+/* ========================================
+   1. GENERAL
+   ======================================== */
+
+/* Fonts */
 @font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto/static/Roboto-ExtraBold.ttf') format('truetype'),
-        url('/fonts/Roboto/static/Roboto-LightItalic.ttf') format('truetype');
+    font-family: 'Roboto-extrabold';
+    src: url('../fonts/Roboto/Roboto-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-lightItalic';
+    src: url('../fonts/Roboto/Roboto-LightItalic.ttf') format('truetype');
 }
 
 /* Landing page styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #1F2937;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
 }
 
 section {
     margin-bottom: 4%;
 }
 
-header,
-.hero,
-footer {
-    background-color: #1F2937;
-    display: flex;
-}
 
-.hero-img {
-    background-color: #263344;
-    width: 80%;
-    height: 250px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: #E5E7EB;
-}
-
-.hero-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+/* ========================================
+   2. HEADER
+   ======================================== */
+header > a > p  {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 header {
+    background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 10%;
+}
+
+header img {
+    width: 150px;
+    height: 75px;
 }
 
 .logo {
@@ -61,12 +58,11 @@ header {
     font-weight: 700;
 }
 
-.hero p {
-    color: #E5E7EB;
-    font-size: 18px;
-    max-width: 60%;
-}
 
+.nav-links a {
+    font-family: 'Roboto-extrabold', Arial, sans-serif;
+    font-size: 18px;
+}
 
 nav {
     display: flex;
@@ -82,66 +78,114 @@ nav a {
     text-decoration: none;
 }
 
-.landing-info {
-    display: flex;
-    justify-content: center;
-    gap: 5%;
-}
+
+/* ========================================
+   3. MAIN
+   ======================================== */
+
+/* main {
+    
+} */
+
+
+/* ========================================
+   4. HERO
+   ======================================== */
 
 .hero {
+    background-color: #1F2937;
+    display: flex;
     padding: 80px 10%;
 }
 
+/* .hero > div {
+    
+} */
+
 .hero h1 {
+    font-family: 'Roboto-extrabold', Arial, sans-serif;
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 800;
 }
 
-button,
-.cta {
-    background-color: #3882F6;
-    color: #fff;
-    border: 0;
-    border-radius: 6px;
-    padding: 12px 24px;
-    font-weight: 700;
+.hero p {
+    color: #E5E7EB;
+    font-size: 18px;
+    max-width: 60%;
 }
+
+
+/* .hero button {
+    
+} */
+
+.hero-img {
+    background-color: #263344;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* ========================================
+   5. INFORMATION
+   ======================================== */
+
+/* .information {
+    
+} */
 
 .information h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 800;
     text-align: center;
+    font-family: 'Roboto-extrabold', Arial, sans-serif;
 }
 
+.landing-info {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 0 10%;
+}
+
+/* .landing-info article {
+    
+} */
+
+.landing-info article img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid #1F2937;
+    border-radius: 6px;
+}
+
+/* .landing-info article p {
+    
+} */
+
+
+/* ========================================
+   6. QUOTE
+   ======================================== */
+
 .landing-quote {
+    font-family: 'Roboto-lightItalic', Arial, sans-serif;
+    /* font-size: 36px; */
     background-color: #E5E7EB;
     color: #1F2937;
     padding: 60px 10%;
-}
-
-.landing-action {
-    border: 0px solid;
-    border-radius: 12px;
-    background-color: #3882F6;
-    display: flex;
-    width: 60%;
-    margin: 4% auto;
-    align-items: center;
-}
-
-.landing-action div {
-    display: block;
-    margin: 2%;
-    color: #fff;
-}
-
-.landing-action button {
-    border: 2px solid white;
-    border-radius: 5%;
-    max-height: 50px;
-    margin: 2%;
 }
 
 .landing-quote p {
@@ -155,9 +199,71 @@ button,
     margin: 0;
 }
 
+
+/* ========================================
+   7. CALL TO ACTION
+   ======================================== */
+
+.landing-action {
+    border: 0px solid;
+    border-radius: 12px;
+    background-color: #3882F6;
+    display: flex;
+    width: 60%;
+    margin: 4% auto;
+    align-items: center;
+}
+
+.landing-action>div {
+    display: block;
+    margin: 2%;
+    color: #fff;
+    font-family: 'Roboto-lightItalic', Arial, sans-serif;
+}
+
+
+.landing-action {
+    padding: 2%;
+    height: 20dvh;
+}
+
+.landing-action button {
+    border: 2px solid white;
+    border-radius: 5%;
+    max-height: 50px;
+    margin: 2%;
+    width: 30%;
+}
+
+
+/* ========================================
+   8. BUTTONS
+   ======================================== */
+
+button,
+.cta {
+    background-color: #3882F6;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-weight: 700;
+}
+
+
+/* ========================================
+   9. FOOTER
+   ======================================== */
+
 footer {
+    background-color: #1F2937;
+    display: flex;
     color: #E5E7EB;
     padding: 24px 10%;
     text-align: center;
     justify-content: center;
 }
+
+/* footer h3 {
+    
+} */
