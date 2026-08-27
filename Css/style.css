@@ -32,6 +32,12 @@ section {
 /* ========================================
    2. HEADER
    ======================================== */
+header > a > p  {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
 
 header {
     background-color: #1F2937;
@@ -77,9 +83,9 @@ nav a {
    3. MAIN
    ======================================== */
 
-main {
+/* main {
     
-}
+} */
 
 
 /* ========================================
@@ -92,9 +98,9 @@ main {
     padding: 80px 10%;
 }
 
-.hero > div {
+/* .hero > div {
     
-}
+} */
 
 .hero h1 {
     font-family: 'Roboto-extrabold', Arial, sans-serif;
@@ -108,9 +114,10 @@ main {
     max-width: 60%;
 }
 
-.hero button {
+
+/* .hero button {
     
-}
+} */
 
 .hero-img {
     background-color: #263344;
@@ -133,26 +140,28 @@ main {
    5. INFORMATION
    ======================================== */
 
-.information {
+/* .information {
     
-}
+} */
 
 .information h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 800;
     text-align: center;
+    font-family: 'Roboto-extrabold', Arial, sans-serif;
 }
 
 .landing-info {
     display: flex;
     justify-content: center;
     gap: 5%;
+    padding: 0 10%;
 }
 
-.landing-info article {
+/* .landing-info article {
     
-}
+} */
 
 .landing-info article img {
     width: 100%;
@@ -162,9 +171,9 @@ main {
     border-radius: 6px;
 }
 
-.landing-info article p {
+/* .landing-info article p {
     
-}
+} */
 
 
 /* ========================================
@@ -173,7 +182,7 @@ main {
 
 .landing-quote {
     font-family: 'Roboto-lightItalic', Arial, sans-serif;
-    font-size: 36px;
+    /* font-size: 36px; */
     background-color: #E5E7EB;
     color: #1F2937;
     padding: 60px 10%;
@@ -205,18 +214,17 @@ main {
     align-items: center;
 }
 
-.landing-action > div {
+.landing-action>div {
     display: block;
     margin: 2%;
     color: #fff;
+    font-family: 'Roboto-lightItalic', Arial, sans-serif;
 }
 
-.landing-action h3 {
-    
-}
 
-.landing-action p {
-    
+.landing-action {
+    padding: 2%;
+    height: 20dvh;
 }
 
 .landing-action button {
@@ -224,6 +232,7 @@ main {
     border-radius: 5%;
     max-height: 50px;
     margin: 2%;
+    width: 30%;
 }
 
 
@@ -255,6 +264,6 @@ footer {
     justify-content: center;
 }
 
-footer h3 {
+/* footer h3 {
     
-}
+} */
