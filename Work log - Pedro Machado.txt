@@ -6,6 +6,9 @@ i want to add a section with 4 squares for an image/illustration and some text u
 
 fill out the contact.html with a form that allows a user to ask a question
 
+Create some media queries for resizing the page to a mobile size of about 375px
+The size is not precise and can vary a bit from around 375px to 1200px or wider
+
 center footer text
 
 Tasks and problems

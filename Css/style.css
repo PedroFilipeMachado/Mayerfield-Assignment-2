@@ -10,6 +10,13 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #1F2937;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 section {
