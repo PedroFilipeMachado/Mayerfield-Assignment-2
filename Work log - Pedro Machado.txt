@@ -9,6 +9,8 @@ fill out the contact.html with a form that allows a user to ask a question
 Create some media queries for resizing the page to a mobile size of about 375px
 The size is not precise and can vary a bit from around 375px to 1200px or wider
 
+I want to create a hamburger menu for my navbar when i'm in small resolution screens
+
 center footer text
 
 Tasks and problems
@@ -37,3 +39,4 @@ Problem: Footer content is not centering to div
 Solution: Added the justify-content: center to the css class
 
 Problem: Navbar options are not on the right side
+Solution: Some css class changes
