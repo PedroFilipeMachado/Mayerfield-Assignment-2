@@ -24,17 +24,29 @@
 @media (max-width: 768px) {
     header {
         align-items: center;
-        flex-direction: row;
+        display: flex;
         flex-wrap: wrap;
         gap: 16px;
         padding-top: 16px;
         padding-bottom: 16px;
     }
 
+    header > a {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+
+    header img {
+        width: 150px;
+        height: auto;
+        max-width: 100%;
+    }
+
     .menu-button {
         cursor: pointer;
         display: flex;
         flex-direction: column;
+        flex: 0 0 auto;
         gap: 5px;
         margin-left: auto;
         padding: 6px;
@@ -51,8 +63,8 @@
         align-items: flex-start;
         background-color: #1F2937;
         display: none;
-        flex-basis: 100%;
         flex-direction: column;
+        flex-basis: 100%;
         gap: 12px;
         padding-top: 4px;
         width: 100%;
@@ -118,6 +130,7 @@
     .landing-action {
         align-items: flex-start;
         flex-direction: column;
+        height: auto;
         width: auto;
         margin: 8% 6%;
         padding: 20px;
@@ -129,6 +142,7 @@
 
     .landing-action button {
         margin: 20px 0 0;
+        width: auto;
     }
 
     main>section:not(.hero):not(.landing-quote):not(.landing-action) {
