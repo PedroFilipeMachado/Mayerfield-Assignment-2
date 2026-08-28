@@ -2,7 +2,6 @@
    1. GENERAL
    ======================================== */
 
-/* Fonts */
 @font-face {
     font-family: 'Roboto-extrabold';
     src: url('../fonts/Roboto/Roboto-ExtraBold.ttf') format('truetype');
@@ -28,11 +27,10 @@ section {
     margin-bottom: 4%;
 }
 
-
 /* ========================================
    2. HEADER
    ======================================== */
-header > a > p  {
+header>a>p {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
@@ -78,15 +76,9 @@ nav a {
     text-decoration: none;
 }
 
-
 /* ========================================
    3. MAIN
    ======================================== */
-
-/* main {
-    
-} */
-
 
 /* ========================================
    4. HERO
@@ -97,10 +89,6 @@ nav a {
     display: flex;
     padding: 80px 10%;
 }
-
-/* .hero > div {
-    
-} */
 
 .hero h1 {
     font-family: 'Roboto-extrabold', Arial, sans-serif;
@@ -113,11 +101,6 @@ nav a {
     font-size: 18px;
     max-width: 60%;
 }
-
-
-/* .hero button {
-    
-} */
 
 .hero-img {
     background-color: #263344;
@@ -135,14 +118,9 @@ nav a {
     object-fit: cover;
 }
 
-
 /* ========================================
    5. INFORMATION
    ======================================== */
-
-/* .information {
-    
-} */
 
 .information h2 {
     color: #1F2937;
@@ -159,22 +137,14 @@ nav a {
     padding: 0 10%;
 }
 
-/* .landing-info article {
-    
-} */
-
 .landing-info article img {
+    display: block;
     width: 100%;
-    height: auto;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
     border: 2px solid #1F2937;
     border-radius: 6px;
 }
-
-/* .landing-info article p {
-    
-} */
-
 
 /* ========================================
    6. QUOTE
@@ -188,17 +158,21 @@ nav a {
     padding: 60px 10%;
 }
 
+.landing-info article {
+    flex: 2 2 0;
+    min-width: 0;
+}
+
 .landing-quote p {
     font-size: 36px;
-    font-style: italic;
-    font-weight: 300;
+    height: clamp(180px, 20vw, 260px);
+    display: block;
 }
 
 .landing-quote h4 {
     text-align: right;
     margin: 0;
 }
-
 
 /* ========================================
    7. CALL TO ACTION
@@ -235,7 +209,6 @@ nav a {
     width: 30%;
 }
 
-
 /* ========================================
    8. BUTTONS
    ======================================== */
@@ -250,7 +223,6 @@ button,
     font-weight: 700;
 }
 
-
 /* ========================================
    9. FOOTER
    ======================================== */
@@ -263,25 +235,23 @@ footer {
     text-align: center;
     justify-content: center;
 }
-
-/* footer h3 {
-    
+  
 /* ========================================
    10. CONTACT
    ======================================== */
 
-main > section {
+main>section {
     padding: 60px 10%;
 }
 
-main > section h1 {
+main>section h1 {
     color: #1F2937;
     font-family: 'Roboto-extrabold', Arial, sans-serif;
     font-size: 36px;
     margin-bottom: 12px;
 }
 
-main > section > p {
+main>section>p {
     color: #1F2937;
     font-size: 18px;
     margin-bottom: 32px;
@@ -295,7 +265,7 @@ form {
     max-width: 700px;
 }
 
-form > div {
+form>div {
     display: flex;
     flex-direction: column;
     gap: 8px;
