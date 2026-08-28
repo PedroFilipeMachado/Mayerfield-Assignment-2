@@ -266,4 +266,70 @@ footer {
 
 /* footer h3 {
     
-} */
+/* ========================================
+   10. CONTACT
+   ======================================== */
+
+main > section {
+    padding: 60px 10%;
+}
+
+main > section h1 {
+    color: #1F2937;
+    font-family: 'Roboto-extrabold', Arial, sans-serif;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+main > section > p {
+    color: #1F2937;
+    font-size: 18px;
+    margin-bottom: 32px;
+    font-family: 'Roboto-lightItalic', Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 700px;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+form label {
+    color: #1F2937;
+    font-family: 'Roboto-lightItalic', Arial, sans-serif;
+    font-size: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #E5E7EB;
+    border-radius: 6px;
+    background-color: #F9FAF8;
+    color: #1F2937;
+    font-family: 'Roboto-lightItalic', Arial, sans-serif;
+    font-size: 16px;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #3882F6;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    align-self: flex-start;
+    cursor: pointer;
+}
