@@ -333,3 +333,71 @@ form button {
     align-self: flex-start;
     cursor: pointer;
 }
+/* ========================================
+   11. ABOUT US - SPACING
+   ======================================== */
+
+/* Reduce the space between About Us sections */
+
+main > section {
+    margin-bottom: 0;
+}
+
+/* About Us title */
+
+main > section:first-child {
+    padding: 40px 10% 20px;
+}
+
+main > section:first-child h2 {
+    margin: 0;
+}
+
+/* Mission */
+
+main > section:nth-child(2) {
+    padding: 20px 10% 30px;
+    margin: 0;
+}
+
+main > section:nth-child(2) h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+main > section:nth-child(2) p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Join Us */
+
+main > section:nth-child(3) {
+    padding: 35px 10%;
+    margin: 0;
+}
+
+main > section:nth-child(3) h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+main > section:nth-child(3) p {
+    margin-top: 0;
+}
+
+/* Our Values */
+
+main > section:nth-child(4) {
+    padding: 35px 10% 45px;
+    margin: 0;
+}
+
+main > section:nth-child(4) h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+main > section:nth-child(4) > div {
+    margin-top: 20px;
+}
