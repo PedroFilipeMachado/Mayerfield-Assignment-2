@@ -356,19 +356,3 @@ main > section:nth-child(3) h2 {
 main > section:nth-child(3) p {
     margin-top: 0;
 }
-
-/* Our Values */
-
-main > section:nth-child(4) {
-    padding: 35px 10% 45px;
-    margin: 0;
-}
-
-main > section:nth-child(4) h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-main > section:nth-child(4) > div {
-    margin-top: 20px;
-}
